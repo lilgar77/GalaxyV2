@@ -47,11 +47,17 @@ Bienvenue sur **GalaxyV2**, un serveur FiveM complet, basé sur **ESX**, conçu 
 
 GalaxyV2/
 ├── galaxyv2.sql          # Base de données complète
+
 ├── server.cfg            # Configuration du serveur
+
 ├── resources.cfg         # Liste des ressources à charger
+
 ├── resources/            # Tous les scripts et mappings
+
 │   ├── [esx_addons]      # Scripts métiers et extras
+
 │   ├── [ui]              # Interfaces (phone, hud…)
+
 │   └── [mlo]             # Mappings & intérieurs
 
 
