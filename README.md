@@ -44,21 +44,21 @@ Bienvenue sur **GalaxyV2**, un serveur FiveM complet, basé sur **ESX**, conçu 
 ---
 
 ## 🗂️ Arborescence du projet
-
+```
 GalaxyV2/
-├── galaxyv2.sql          # Base de données complète
-
-├── server.cfg            # Configuration du serveur
-
+├── galaxyv2.sql          # Script de création de la base de données
 ├── resources.cfg         # Liste des ressources à charger
-
-├── resources/            # Tous les scripts et mappings
-
-│   ├── [esx_addons]      # Scripts métiers et extras
-
-│   ├── [ui]              # Interfaces (phone, hud…)
-
-│   └── [mlo]             # Mappings & intérieurs
+├── server.cfg            # Fichier principal de configuration du serveur
+├── README.md             # Documentation du projet
+└── resources/            # Dossier contenant tous les scripts et mappings
+    ├── [esx]/            # Scripts principaux ESX
+    ├── [jobs]/           # Scripts de métiers (police, ambulance, etc.)
+    ├── [scripts]/        # Scripts divers (inventaire, HUD, menu admin, etc.)
+    ├── [vehicles]/       # Véhicules et gestion des garages
+    ├── [mlo]/            # Mappings et intérieurs personnalisés
+    ├── [ui]/             # Interfaces (téléphone, menu, HUD)
+    └── [utils]/          # Scripts utilitaires ou librairies
+```
 
 
 ---
